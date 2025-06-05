@@ -1,16 +1,20 @@
 ## Purpose
-(Students must describe what the script does)
+This tiny script takes a fasta file and displays base counts for the first sequence in it. 
 
 ## Instructions for Running Code
 
 ### Install dependencies
-(Students must create an `environment` and list dependencies)
 
-This script requires the following R packages:
+This script requires R and the following R packages:
+`Biostrings, ggplot2`
+
+You can create a Conda environment with all the dependencies installed by running:
+`conda env create -f environment.yml`
 
 ### Run the script
-(Students must specify correct paths)
-#Rscript base_composition.R
+Your input data must be named 'sequence.fasta' and stored in the 'data' directory next to the script;
+To execute the sript run
+`Rscript base_composition.R`
 
 ## What output to expect
-(Students must describe what output to expect by running this code)
+A .PNG file with base counts rendered as a bar plot.
