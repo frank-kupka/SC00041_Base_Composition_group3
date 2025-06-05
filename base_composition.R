@@ -3,7 +3,7 @@ library(Biostrings)
 library(ggplot2)
 
 # Set input and output file paths directly
-input_file <- "data/sequence.fasta"
+input_file <- "data/fasta.fa"
 output_file <- "output/base_plot.png"
 
 # Read fasta
