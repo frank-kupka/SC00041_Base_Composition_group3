@@ -12,7 +12,7 @@ You can create a Conda environment with all the dependencies installed by runnin
 `conda env create -f environment.yml`
 
 ### Run the script
-Your input data must be named 'sequence.fasta' and stored in the 'data' directory next to the script;
+Your input data must be named 'sequence.fa' and stored in the 'data' directory next to the script;
 To execute the sript run
 `Rscript base_composition.R`
 
